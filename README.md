@@ -19,7 +19,7 @@ This is some basic coding and bash scripting used when i was a student of savvyc
 ## Description:
 Help learn basic bash scripts and github for savvycodder bootcamp students
 ## Installation:
- You will need to install git bash and Visual studiio code
+ You will need to install git bash and Visual studio code
 ## Usage:
 1. This is learning code and is not intedend to show any real purpose
 Made by: Anthony Ingargiola
