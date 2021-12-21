@@ -1,3 +1,3 @@
 #!/bin/bash
 last
-echo log historyy
+echo log history
