@@ -1,3 +1,9 @@
 #!/bin/bash
-ifconfig
-echo IP address
+Ip=ifconfig 
+filename=ip.txt
+ $Ip
+touch ip.txt
+$Ip >> $filename
+echo IP address    
+    
+    
