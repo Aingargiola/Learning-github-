@@ -6,7 +6,6 @@ y="terminal"
                 echo "Pick a PID"            
                 read pid
                 kill -3 $pid  
-                echo -e "Do you want continue(y) to exit / any other key to stop " 
                 read option
         done
 
