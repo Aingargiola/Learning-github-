@@ -1,4 +1,5 @@
 #!/bin/bash
+# Mac specs script
 sysctl -n machdep.cpu.brand_string
 echo CPU Specs
 system_profiler SPHardwareDataType
