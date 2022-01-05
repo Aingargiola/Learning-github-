@@ -16,13 +16,13 @@
 # == (comparison)
 # % (Remainder)
 # * (Multiply)
-NUM3=3
-NUM4=5
-NUM2=2
+
+
 function validation() {
-    if [ $NUM3 < $NUM4 ] && [ $NUM3 > $NUM2 ]
+    read number
+   if ((number <= 5 && number >= 2 )) ;
     then
-        echo "Your number is $NUM3"
+        echo "Your number is valid"
     else
         echo "Not Valid"
         fi
