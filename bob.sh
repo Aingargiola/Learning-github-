@@ -23,8 +23,10 @@ function validation() {
    if ((number <= 5 && number >= 2 )) ;
     then
         echo "Your number is valid"
-    else
+    elif
         echo "Not Valid"
-        fi
+    then
+        validation
+    fi
  }
 validation
