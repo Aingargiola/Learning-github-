@@ -29,4 +29,6 @@ function validation() {
         validation
     fi
  }
+ echo "insert Number"
 validation
+echo "Number is" $number
