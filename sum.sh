@@ -39,8 +39,9 @@
 # subtract
 # date
 
-read $Num1
-read $Num2
+
+Num1=2
+Num2=4
 function divide() {
 total=$((Num1 % Num2)) ;
 echo "the amount is $total "
