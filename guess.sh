@@ -12,24 +12,23 @@
 
 # Creating a variable to hold random number using the built in RANDOM command. 
 # (( secret = RANDOM % 20 + 1 ))
-Number=$(( $RANDOM % 20 + 1 ))
+(( Number= RANDOM % 20 + 1 ))
 echo $Number
 
-until [[ $Num1 -eq $Number ]] ;
+while [[ $Num1 -ne $Number ]] ;
 do
 echo "enter a guess"
-read $Num1   
+read Num1   
 guess=$(($guess +1))
 
    
-    if [[ $Num1 -gt $Number  ]] ;
+    if (( $Num1 > $Number )) ;
     then
         echo "Your number is higher"
-    elif [[ $Num1 -lt $Number ]] ;
+    elif (( $Num1 < $Number )) ;
         then
         echo "Your Number is lower"
-    else [[ $Num1 -eq $Number  ]]
-    echo "Your correct it took $guess tries"
+   
     fi
 done
 echo "your correct it took $guess tries"
