@@ -1,5 +1,5 @@
-Comparison.sh
-7:48
+# Comparison.sh
+# 7:48
 # -eq = equal
 # -ne = are not equal
 # -gt = greater than
@@ -17,14 +17,14 @@ else
 fi
 }
 checkNumber
-7:48
-foorloop.sh
-7:48
-FILES=("f1.txt" "f2.txt" "f3.txt" "f4.txt" "f5.txt")
-for robert in ${FILES[@]}
-do  
-echo $robert
-done
+# 7:48
+# foorloop.sh
+# 7:48
+# FILES=("f1.txt" "f2.txt" "f3.txt" "f4.txt" "f5.txt")
+# for robert in ${FILES[@]}
+# do  
+# echo $robert
+# done
 
 #While loop
 # filename="network_list.txt"

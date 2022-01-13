@@ -13,28 +13,30 @@
 # Creating a variable to hold random number using the built in RANDOM command. 
 # (( secret = RANDOM % 20 + 1 ))
 Number=$(( $RANDOM % 20 + 1 ))
-echo $Number
+
 
 until [[ $Num1 -eq $Number ]] ;
 do
 echo "enter a guess"
-read $Num1   
+read Num1   
 guess=$(($guess +1))
 
    
     if [[ $Num1 -gt $Number  ]] ;
-    then
+        then
         echo "Your number is higher"
     elif [[ $Num1 -lt $Number ]] ;
         then
-        echo "Your Number is lower"
-    else [[ $Num1 -eq $Number  ]]
-    echo "Your correct it took $guess tries"
+        echo "Your number is lower"
+   
     fi
 done
 echo "your correct it took $guess tries"
 
-
+#Creating a guessing game with random numbers from 1-20 and track how many guess it takes.
+#Author: Anthony Ingargiola
+#Assisted by Kurtis Jin
+#Created on 1/12/22
 
    
 
