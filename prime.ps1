@@ -12,7 +12,7 @@ $choice = Read-Host "Enter a number"
 
    
     if ($choice % 2) {
-    Write-Host "$choice is prime"
+    Write-Host "$choice is prime number"
 }else {
         Write-Host "$choice is not prime"
     }
