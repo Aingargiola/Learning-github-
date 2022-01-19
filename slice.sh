@@ -36,3 +36,4 @@
 arr=("Nimibia" "Nauru" "Nepal" "Netherlands" "NewZealand" "Nicaragua" "Niger" "Nigeria" "North Korea" "Norway")
 # echo ${arr[@]:1}
 echo ${arr[@]: 2:5}
+# feel free to change the numbers to echo different parts of the array

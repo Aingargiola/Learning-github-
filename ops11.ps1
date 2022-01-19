@@ -4,6 +4,10 @@ Enable-PSRemoting
 Get-AppxPackage *appName* | Remove-AppxPackage
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 Disable-WindowsOptionalFeature -Online -FeatureName SMB1Protocol -Remove
+<<<<<<< HEAD
 # Messing with firewall protocols with a powershell script
 
 
+=======
+# Messing with firewall protocols with a powershell script
+>>>>>>> ccde63a4a665e27478e8b3b9080f96fce446359b

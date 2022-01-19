@@ -39,13 +39,14 @@
 # subtract
 # date
 
-
-Num1=2
-Num2=4
+echo "enter a number"
+read Num1
+echo "enter a number"
+read Num2
 function divide() {
-total=$((Num1 % Num2)) ;
+total=$((Num1 / Num2)) ;
 echo "the amount is $total "
 
 }
 divide
-date
+date 
