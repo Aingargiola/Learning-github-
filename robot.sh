@@ -51,5 +51,15 @@ bad)
 #     esac
 
 
-
-   
+  
+   printf "\ndo you want to play a game "
+   read anwser
+   case $anwser in
+   yes)
+    echo -n "i dont like games"
+    ;;
+    no)
+    echo -n "i did not want you to play"
+    ;;
+    esac
+    printf "\ngoodbye i dont like you"
