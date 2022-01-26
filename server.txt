@@ -1,0 +1,4 @@
+iphone is connected
+Switch is offline
+macbook is offline
+Linux pc is connected
