@@ -46,7 +46,7 @@ echo "the triangle is equlateral"
 elif
 [ "$side1" == "$side2" ] || [ "$side2" == "$side3" ] || [ "$side1" == "$side3" ] ;
 then 
-echo "this triangle is Scalene"
+echo "this triangle is Iscoeles"
 else 
-echo "this triangle is Isoceles"
+echo "this triangle is Scalene"
 fi
