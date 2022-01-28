@@ -25,7 +25,7 @@ Help learn basic bash scripts and github for savvycodder bootcamp students
 Made by: Anthony Ingargiola
 
 ## Features:
-Help learn bash scripting and github
+Help learn bash scripting, powershell and github 
 ## Contribute:
 N/A
 ## Test:
