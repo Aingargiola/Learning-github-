@@ -4,7 +4,7 @@ New
 
 Anthony Ingargiola 9:38 PM
 # Learning Github for Cyber boot camp
-This is some basic coding and bash scripting used when i was a student of savvycodders cyber bootcamp
+This is some basic coding and bash and powershell scripting used when i was a student of savvycodders cyber bootcamp
 
 ## Table of Contents:
   1. [Description](#description)
@@ -17,7 +17,7 @@ This is some basic coding and bash scripting used when i was a student of savvyc
   8. [Test](#test)
   9. [Questions](#questions)
 ## Description:
-Help learn basic bash scripts and github for savvycodder bootcamp students
+Help learn basic bash and powershell scripts and github for savvycodder bootcamp students
 ## Installation:
  You will need to install git bash and Visual studio code
 ## Usage:
@@ -32,6 +32,6 @@ N/A
 Test was done using bash with visual studio code and chrome.
 ## Questions:
 1. Please click the link for Github: <a href = "https://github.com/aingargiola">My Github Site</a>
-
+2. Connect on Linkedin https://www.linkedin.com/in/anthony-ingargiola/
 3. Email: aingarigola8@gmail.com
 (25 kB)
