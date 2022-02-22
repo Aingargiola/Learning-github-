@@ -23,7 +23,7 @@ function nin(){
 nin
 mac=192.168.0.185
 function macbook(){
-    ping -c 1 $mac >/dev/null
+    ping -c 1 $mclac >/dev/null
     if [ $? -eq 0 ]
     then    
         echo "macbook is online" >>server.txt

@@ -194,3 +194,102 @@ class Bus(Vehicle):
 
 School_bus = Bus("School Volvo", 12, 50)
 print("Total Bus fare is:", School_bus.fare())
+
+
+#Polymorphism with Inheritance
+#Expected Output - 
+
+# Details: Car x1 Red 20000
+# Car max speed is 240
+# Car change 7 gear
+
+# Details: Truck x1 white 75000
+# Vehicle max speed is 150
+# Vehicle change 6 gear
+
+#POLY means "many"
+#Morph means "forms"
+#polymorth = it can take many forms. 
+
+class Vehicle:
+
+    def __init__(self, name, color, price):
+        self.name = name
+        self.color = color
+        self.price = price
+
+    def show(self):
+        print('Details:', self.name, self.color, self.price)
+
+    def max_speed(self):
+        print('Vehicle max speed is 150')
+
+    def change_gear(self):
+        print('Vehicle change 6 gear')
+
+
+# inherit from vehicle class
+class Car(Vehicle):
+    def max_speed(self):
+        print('Car max speed is 240')
+
+    def change_gear(self):
+        print('Car change 7 gear')
+
+
+# Car Object
+car = Car('Car x1', 'Red', 20000)
+car.show()
+# calls methods from Car class
+car.max_speed()
+car.change_gear()
+
+# Vehicle Object
+vehicle = Vehicle('Truck x1', 'white', 75000)
+vehicle.show()
+# calls method from a Vehicle class
+vehicle.max_speed()
+vehicle.change_gear()
+
+# As you can see, due to polymorphism, the Python interpreter recognizes that the max_speed() 
+# and change_gear() methods are overridden for the car object. So, it uses the one defined in the child class (Car)
+
+# On the other hand, the show() method isn't overridden in the Car class, so it is used from the Vehicle class.
+
+class Robot(object):
+       def __init__(self):
+      self.a = 123
+      self._b = 123
+      self.__c = 123
+
+obj = Robot()
+print(obj.a)
+print(obj._b)
+print(obj.__c) 
+# If you run the program you see:
+# 123
+# 123
+#A double underscore: Private variable, harder to access but still possible.
+# Traceback (most recent call last):
+#   File "test.py", line 10, in &lt;module&gt;
+#     print(obj.__c)
+# AttributeError: 'Robot' object has no attribute '__c' 
+
+
+
+
+class Robot(object):
+   def __init__(self):
+      self.__version = 22
+
+   def getVersion(self):
+      print(self.__version)
+
+   def setVersion(self, version):
+      self.__version = version
+
+obj = Robot()
+obj.getVersion()
+obj.setVersion(23)
+obj.getVersion()
+print(obj.__version)
