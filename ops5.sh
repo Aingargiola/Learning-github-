@@ -21,4 +21,4 @@
 log = cd /var/log
 cd $log
 sudo cat /dev/null > syslog
-sudo cat /dev//null > wtmp
+sudo cat /dev/null > wtmp
