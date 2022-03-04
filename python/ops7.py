@@ -9,7 +9,8 @@
 # Import libraries
 
 import os
-from unicodedata import name
+
+
 
 
 # Declaration of variables
@@ -37,5 +38,5 @@ def myfunc(self):
 # Main
 
 ### Pass the variable into the function here
-print(testdir.myfunc())
+testdir.myfunc()
 # End
