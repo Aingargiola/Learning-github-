@@ -1,3 +1,4 @@
+#!/bin/bash
 # Objectives
 # Write a log clearing bash script
 # Tasks
