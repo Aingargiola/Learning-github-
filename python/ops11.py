@@ -7,4 +7,4 @@ f = open('ops.txt', 'w' )
 f.write("this file has words\n the dog ran\n very fast")
 b = f.read
 print(b)
-# os.remove('ops.txt')
+os.remove('ops.txt')
