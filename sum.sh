@@ -15,17 +15,17 @@
 # Example: If you run this script at 5:18 1/10/2022, he wants to see it!
 # Also needs to show the time zone!
 
-# echo "add two numbers"
+echo "add two numbers"
 
-# Num1=5
-# Num2=8
-# function add() {
-# total=$((Num1 + Num2)) ;
-# echo "the amount is $total "
+Num1=5
+Num2=8
+function add() {
+total=$((Num1 + Num2)) ;
+echo "the amount is $total "
 
-# }
-# add
-# date
+}
+add
+date
 
 # echo "subtract two numbers"
 
@@ -39,14 +39,14 @@
 # subtract
 # date
 
-echo "enter a number"
-read Num1
-echo "enter a number"
-read Num2
-function divide() {
-total=$((Num1 / Num2)) ;
-echo "the amount is $total "
+# echo "enter a number"
+# read Num1
+# echo "enter a number"
+# read Num2
+# function divide() {
+# total=$((Num1 / Num2)) ;
+# echo "the amount is $total "
 
-}
-divide
-date 
+# }
+# divide
+# date 
