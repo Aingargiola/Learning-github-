@@ -2,4 +2,4 @@
 echo "what is your name"
 read name
 
- echo "Hello there"  $name
+ echo "Hello there"  $name "welcome to class"
