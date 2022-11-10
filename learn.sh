@@ -1,18 +1,20 @@
 #!/bin/bash
-# echo "Hello Class"
-# students="Shila, Tim"
+echo "Hello Class"
+# students = 
 # echo $students
 
-# echo "add two numbers"
+# echo "add two numbers by entering 2 numbers"
+# echo "enter number 1"
 
-# Num1=5
+# read Num1
+# echo "enter number 2"
 # read Num2
 # function add() {
 # total=$((Num1 + Num2)) ;
 # echo "the amount is $total "
-
 # }
-add
+# add
+
 # echo "enter a website"
 # read website
 # whois $website
@@ -25,13 +27,12 @@ add
 # ping google.com
 
 
-echo "Enter a number between 1 and 10"
-read input
-if [ $input = 1 ]
-    then echo "Hello World!"
-elif [ $input = 2 ]
-    then ping -c 1 amazon.com
-else ifconfig
-    fi
-
+# echo "Enter a number between 1 and 3"
+# read input
+# if [ $input = 1 ]
+#     then echo "Hello World!"
+# elif [ $input = 2 ]
+#     then ping -c 1 amazon.com
+# else ifconfig
+#     fi
 

@@ -2,3 +2,6 @@ iphone is connected
 Switch is offline
 macbook is offline
 Linux pc is not connected
+iphone is not connected
+Switch is offline
+macbook is offline
